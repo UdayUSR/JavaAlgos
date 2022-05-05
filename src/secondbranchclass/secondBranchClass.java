@@ -1,6 +1,7 @@
 public class stud2{
     String name, hometown;
     int roll;
+
     int mark;
 
     public int getMark() {
@@ -13,6 +14,7 @@ public class stud2{
         name="Uday";
         hometown="Bagerhat";
         roll=1807106;
+        cgpa=3.5;
     }
     public String getName() {
         return name;
@@ -32,4 +34,11 @@ public class stud2{
     public void setRoll(roll){
         this.roll=roll;
     }
+    public double getcgpa() {
+        return cgpa;
+    }
+    public void setcgpa() {
+        this.cgpa=cgpa;
+    }
+
 }
