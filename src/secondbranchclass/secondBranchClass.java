@@ -1,7 +1,14 @@
 public class stud2{
     String name, hometown;
     int roll;
+    int mark;
 
+    public int getMark() {
+        return mark;
+    }
+    public void setMark(mark){
+        this.mark=mark;
+    }
     public stud2(){
         name="Uday";
         hometown="Bagerhat";
