@@ -1,4 +1,4 @@
-public class Stud1(){
+public class Stud1{
 
     String name;
 
